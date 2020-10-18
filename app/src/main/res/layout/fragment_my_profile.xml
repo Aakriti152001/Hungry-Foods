@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="7dp"
+    android:background="#B3B1B1"
+    app:cardCornerRadius="15dp"
+    android:layout_marginTop="35dp"
+    android:outlineAmbientShadowColor="@color/colorAccent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/llProfile1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:weightSum="6">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_weight="2.3"
+                android:layout_marginStart="20dp">
+
+                <TextView
+                    android:id="@+id/txtProfileName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:text="Aakriti  Thakur"
+                    android:textColor="#000000"
+                    android:textSize="17.5sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+
+                <TextView
+                    android:id="@+id/txtProfileBio"
+                    android:layout_width="120dp"
+                    android:layout_height="66dp"
+                    android:layout_below="@id/txtProfileName"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="2dp"
+                    android:text="All cuisine lover but pizza is tempting"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp"
+                    android:textStyle="italic"
+                    android:layout_marginStart="15dp"/>
+
+
+            </RelativeLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgprofileDrawer"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="3.6"
+                android:padding="2dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/profiledp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llProfile2"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@id/llProfile1"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp">
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#CFCCCC"
+                android:layout_below="@id/llProfile1"/>
+
+            <TextView
+                android:id="@+id/txtPersonalInfo"
+                android:layout_width="315dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1.5"
+                android:padding="4dp"
+                android:text="PERSONAL INFORMATION"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="180dp"
+                android:layout_height="3dp"
+                android:layout_below="@id/txtPersonalInfo"
+                android:layout_marginStart="7dp"
+                android:background="#CFCCCC" />
+
+            <TextView
+
+                android:id="@+id/txtProfileMail"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1.5"
+                android:padding="3dp"
+                android:text="E-mail : aakritithakur930@gmail.com"
+                android:textColor="#000"
+                android:textSize="16.5sp"
+                android:textStyle="normal"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="7dp"/>
+
+            <TextView
+
+                android:id="@+id/txtProfileLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1.5"
+                android:drawablePadding="8dp"
+                android:padding="3dp"
+                android:text="Location : House No.-38, Sec-32A, Chandigarh"
+                android:textColor="#000"
+                android:textSize="16.5sp"
+                android:textStyle="normal"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="3dp"/>
+            <TextView
+
+                android:id="@+id/txtProfileMobileNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1.5"
+                android:drawablePadding="8dp"
+                android:padding="3dp"
+                android:text="Contact : 9856341295"
+                android:textColor="#000"
+                android:textSize="16.5sp"
+                android:textStyle="normal"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="3dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_height="3dp"
+                android:background="#CFCCCC"
+                android:layout_below="@id/txtProfileMobileNumber"/>
+
+            <TextView
+                android:id="@+id/txtProfileLovedFoods"
+                android:layout_width="315dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1.5"
+                android:padding="4dp"
+                android:text="MOST LOVED FOODS"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="140dp"
+                android:layout_height="3dp"
+                android:layout_below="@id/txtPersonalInfo"
+                android:layout_marginStart="7dp"
+                android:background="#CFCCCC" />
+
+            <TextView
+
+                android:id="@+id/txtPizza"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1.5"
+                android:padding="10dp"
+                android:text="Pizza"
+                android:textColor="#000"
+                android:textSize="16.5sp"
+                android:textStyle="normal"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="7dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_food"/>
+
+            <TextView
+
+                android:id="@+id/txtBurger"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1.5"
+                android:text="Burger"
+                android:textColor="#000"
+                android:textSize="16.5sp"
+                android:textStyle="normal"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="3dp"
+                android:drawablePadding="8dp"
+                android:drawableLeft="@drawable/ic_food"
+                android:padding="10dp"/>
+            <TextView
+
+                android:id="@+id/txtPasta"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1.5"
+                android:text="Pasta"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textSize="16.5sp"
+                android:textStyle="normal"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="3dp"
+                android:drawablePadding="8dp"
+                android:drawableLeft="@drawable/ic_food"
+                />
+            <TextView
+
+                android:id="@+id/txtVegBiryani"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1.5"
+                android:text="Veg Biryani"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textSize="16.5sp"
+                android:textStyle="normal"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="3dp"
+                android:drawablePadding="8dp"
+                android:drawableLeft="@drawable/ic_food"
+                android:layout_marginBottom="10dp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

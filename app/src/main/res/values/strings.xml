@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">HungryFoods</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="register_now">Register Now</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="mobile_number">   Mobile Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_your_registered_mobile_number_and_email_adderss_below">Enter your registered mobile number and email address</string>
+    <string name="enter_the_received_otp_below">Enter the received OTP below</string>
+    <string name="otp_4_characters">OTP(4 Characters)</string>
+
+    <string name="confirm_password">Confirm Password</string>
+    <string name="name_min_4_characters">Name (Min. 4 characters)</string>
+    <string name="mobile_number_10_digits">Mobile Number (10 digits)</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="password_min_4_characters">Password (Min. 4 characters)</string>
+    <string name="register">REGISTER</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favourite_restaurants">Favourite Restaurants</string>
+    <string name="order_history">Order History</string>
+    <string name="faqs">FAQs</string>
+    <string name="log_out">Log Out</string>
+    <string name="aakriti_thakur">Aakriti Thakur</string>
+    <string name="mobile_number_drawer_header">9888453241</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="order_histroy_fragment">Order Histroy Fragment</string>
+    <string name="my_profile_fragment">My Profile Fragment</string>
+    <string name="log_out_fragment">Log Out Fragment</string>
+    <string name="favourite_restaurants_fragment">Favourite Restaurants Fragment</string>
+    <string name="faqs_fragment">FAQs Fragment</string>
+    <string name="hungry_foods_shared_prefrences">Shared Prefrences</string>
+    <string name="don_t_have_a_account_sign_up_now">Don\'t have a account? Sign up now</string>
+    <string name="password_min_6_characters">Password (Min. 6 characters)</string>
+    <string name="name_of_the_restaurant">Name of the Restaurant</string>
+    <string name="qna">QnA</string>
+    <string name="corona_precautions">Corona Precautions</string>
+    <string name="todo">TODO</string>
+    <string name="italian">Italian</string>
+    <string name="chinese">Chinese</string>
+    <string name="mexican">Mexican</string>
+    <string name="indian">Indian</string>
+    <string name="cuisines_for_hunger">Cuisines For Hunger</string>
+    <string name="indonesian">Indonesian</string>
+    <string name="japanese">Japanese</string>
+    <string name="the_basics">The Basics</string>
+    <string name="ques1">Q1. Is Hungry Foods Safe according to security purpose ?</string>
+    <string name="ans1">Ans. Yes, Hungry Foods uses Firebase authentication which only allows verified user to use the application</string>
+    <string name="ques2">Q2. I do not remember my password ?</string>
+    <string name="ans2">Ans. Click on Log out from the navigation drawer.
+        Then click on Forgot Password?. Fill out your mail address and a password recovery will be sent to you by mail.</string>
+    <string name="ques3">Q3. What are your delivery hours?
+</string>
+    <string name="ans3">Ans. Our delivery hour are 24 X 7.</string>
+    <string name="ques4">Q4. Can I place order on call? </string>
+    <string name="ans4">Ans. Sorry, we don’t accept orders on call. </string>
+    <string name="ques5">Q5. Why is my location is not serviceable? </string>
+    <string name="ans5">Ans. We are currently live only in a few cities. We will be expanding soon. </string>
+    <string name="food_item_name">Food Item Name</string>
+
+</resources>

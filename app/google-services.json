@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "385809214181",
+    "firebase_url": "https://hungryfoods-76e58.firebaseio.com",
+    "project_id": "hungryfoods-76e58",
+    "storage_bucket": "hungryfoods-76e58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385809214181:android:b19187d07eb7e2eb3d020c",
+        "android_client_info": {
+          "package_name": "com.aakriti.hungryfoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385809214181-hqkvitpe78erobkagmlfdcd4qvbg37hl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aakriti.hungryfoods",
+            "certificate_hash": "9827112d7cb8a57c2ef1c13801690efed53fde2f"
+          }
+        },
+        {
+          "client_id": "385809214181-96us5ot0jnn7urfkmo5ptjh4tvhpohjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIR0_dTWvvh7A6JJ1-vOxinYvTlJHhtnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385809214181-96us5ot0jnn7urfkmo5ptjh4tvhpohjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
