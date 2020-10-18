@@ -99,7 +99,7 @@ class AllRestaurantsActivity : AppCompatActivity() {
     //setup toolbar as an action bar
     private fun setUpToolBar(){
         setSupportActionBar(toolbar)
-        supportActionBar?.title="ToolBar Title"
+        supportActionBar?.title="Title"
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         navigationView.setCheckedItem(R.id.home)
